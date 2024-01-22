@@ -48,7 +48,7 @@ Login: beatrizcrds7@gmail.com | Senha: Senha123@
 - Adicionar um produto [Seller] ao carrinho;
 - Adicionar e remover os produtos ao carrinho;
 - Executar processo completo de compra via boleto;
-- Executar processo completo de compra via cartão de credito.
+- Executar processo completo de compra via cartão de crédito.
 
 
 ### Criar um cadastro [Novo usuário]
