@@ -254,24 +254,24 @@ describe('Adicionar produtos ao carrinho', () => {
 ```
 ## Apontamentos finais
 
-Tive alguns impedimentos no decorrer do processo de desenvolvimento dos scripts os impedimentos foram pontuados dentro do próprio código como forma de comentario. 
+Tive alguns impedimentos no decorrer do processo de desenvolvimento dos scripts os impedimentos foram pontuados dentro do próprio código como forma de comentário. 
 Vou apontar os mesmos para uma avaliação mais aprofundada.
 
-- 1º Ao cadastrar um novo usuáro foi informado todos os dados solicitados, ao finalizar o cadastro é enviado um código de verificação para validação do novo usuário mas os códigos recebidos via e-mail não são válidos.
+- 1º Ao cadastrar um novo usuário foi informado todos os dados solicitados, ao finalizar o cadastro é enviado um código de verificação para validação do novo usuário mas os códigos recebidos via e-mail não são válidos.
 
-- 2º Após finalizar o cadastro do novo usuário é possivel observar que os e-mails de código de verificação não são pausados quando utilizados, sendo assim em um periodo de 2h recebi mais de 45 e-mails com código de verificação e mesmo com todos esses códigos nenhum era válido para finalizar o cadastro do novo usuário.
+- 2º Após finalizar o cadastro do novo usuário é possível observar que os e-mails de código de verificação não são pausados quando utilizados, sendo assim em um período de 2h recebi mais de 45 e-mails com código de verificação e mesmo com todos esses códigos nenhum era válido para finalizar o cadastro do novo usuário.
 
-- 3º No processo de desenvolvimento dos scripts foi possivel observar que algumas atribuições de classes e Id's não são válidas e não são possiveis de utilizar como parâmetros.
+- 3º No processo de desenvolvimento dos scripts foi possível observar que algumas atribuições de classes e Id's não são válidas e não são possiveis de utilizar como parâmetros.
 
 - 4º As vezes mesmo que um usuário tenha realmente um cadastro não era possivel realizar login com ele, uma instabilidade foi localizada referente a login com novos usuários.
 
-- 5º Ao cadastar um novo usuário foi possivel observar também que mesmo que todos os dados complementares tenham sido informados, eles nao estão sendo armazenados. Sendo necessario informar novamente os dados como [Sexo, data de nascimento, CPF, telefone e dados de endereço].
+- 5º Ao cadastrar um novo usuário foi possivel observar também que mesmo que todos os dados complementares tenham sido informados, eles nao estão sendo armazenados. Sendo necessário informar novamente os dados como [Sexo, data de nascimento, CPF, telefone e dados de endereço].
 
 - 6º Foi possivel observar tambem que não é possivel finalizar o cadastro preenchendo manualmente e automaticamente todos os dados novamente desse novo usuário.
 
 - 7º Sendo assim o usuário é IMPEDIDO de realizar compras via Boleto e Cartão já que não é possivel realizar a finalização do cadastro.
 
-- 8º Conforme a navegação no site é possivel encontrar inumeros impedimentos que dificultaram o processo de desenvolvimento dos scripts.
+- 8º Conforme a navegação no site é possivel encontrar inúmeros impedimentos que dificultaram o processo de desenvolvimento dos scripts.
 
 - 9º É possivel observar uma possivel falha de comunicação do site com o banco de dados, já que os dados informados não sao armazenados de forma correta.
 
